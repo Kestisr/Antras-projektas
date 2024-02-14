@@ -13,54 +13,69 @@ const result = diff(summ(15, 5), summ(5, 10), summ(1, 1));
 console.log(result);
 console.clear();
 
-function Initials(name) {
-    const [firstName, lastName] = name.split(' ');
-    return `${firstName[0].toUpperCase()}.${lastName[0].toUpperCase()}.`;
+function doSomthing(func) {
+    const x = 15
+    const y = 10
+    return x + y;
 }
 
-console.log(Initials('Kestas Razgaitis'));
+console.log(doSomthing(diff));
 
-// function abbrevName(name) {
+
+
+
+
+// function Initials(name) {
 //     const [firstName, lastName] = name.split(' ');
 //     return `${firstName[0].toUpperCase()}.${lastName[0].toUpperCase()}.`;
 // }
 
-// console.log(abbrevName("Kestas Razgaitis"));
+// console.log(Initials('Kestas Razgaitis'));
 
-function fix(name) {
-    return `${name[0].toUpperCase()}${name.slice(1).toLowerCase()}.`;
-}
+// // function abbrevName(name) {
+// //     const [firstName, lastName] = name.split(' ');
+// //     return `${firstName[0].toUpperCase()}.${lastName[0].toUpperCase()}.`;
+// // }
 
-console.log(fix('pEtras'));
-console.log(fix('pEtRas'));
-console.log(fix('JURGA'));
-console.log(fix('gINTARE'));
-console.log(fix('DoViLe'));
-console.log(fix('rImAnTaS'));
+// // console.log(abbrevName("Kestas Razgaitis"));
+
+// function fix(name) {
+//     return `${name[0].toUpperCase()}${name.slice(1).toLowerCase()}.`;
+// }
+
+// console.log(fix('pEtras'));
+// console.log(fix('pEtRas'));
+// console.log(fix('JURGA'));
+// console.log(fix('gINTARE'));
+// console.log(fix('DoViLe'));
+// console.log(fix('rImAnTaS'));
 
 
-function Initials(name) {
-    const [firstName, lastName] = name.split(' ');
-    return `${firstName[0].toUpperCase()}.${lastName[0].toUpperCase()}.`;
-}
+// function Initials(name) {
+//     const [firstName, lastName] = name.split(' ');
+//     return `${firstName[0].toUpperCase()}.${lastName[0].toUpperCase()}.`;
+// }
 
-console.log(Initials('Kestas Razgaitis'));
+// console.log(Initials('Kestas Razgaitis'));
 
-function abbrevName(name) {
+// function abbrevName(name) {
 
-    var nameArray = name.split(" ");
-    return (nameArray[0][0] + "." + nameArray[1][0]).toUpperCase();
-}
+//     var nameArray = name.split(" ");
+//     return (nameArray[0][0] + "." + nameArray[1][0]).toUpperCase();
+// }
 
-console.log(abbrevName('Kestas Razgaitis'));
-console.clear();
+// console.log(abbrevName('Kestas Razgaitis'));
+// console.clear();
 
-function check(a, x) {
-    return a.includes(x);
-}
+// function check(a, x) {
+//     return a.includes(x);
+// }
 
-console.log(check([66, 101], 65));
-console.log(check(['what', 'a', 'great', 'kata'], 'kata'));
+// console.log(check([66, 101], 65));
+// console.log(check(['what', 'a', 'great', 'kata'], 'kata'));
 
-//console.log('Pomidoras'.includes('o'));
+// //console.log('Pomidoras'.includes('o'));
+
+
+
 
